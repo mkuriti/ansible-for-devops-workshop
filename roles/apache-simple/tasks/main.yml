@@ -64,7 +64,7 @@
 - name: Ensure latest index.html file is present for Container
   template:
     src: index.html.j2
-    dest: /var/www/html/index.html
+    dest: /home/student19/ansible-for-devops-workshop/siteb/var/www/html/index.html
   tags:
      - container
 
